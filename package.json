@@ -1,6 +1,7 @@
 {
   "name": "webpack-tree-shaking",
   "version": "1.0.0",
+  "sideEffects": false,
   "main": "index.js",
   "license": "MIT",
   "scripts": {
