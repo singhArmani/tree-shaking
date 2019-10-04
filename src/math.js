@@ -1,8 +1,8 @@
-import get from 'lodash/get';
+import {get } from 'lodash-es'
 
-export function getProperty(Obj, propertyName){
-    return get(Obj, propertyName)
-}
+// export function getValue(Obj, propertyName){
+//     return get(Obj, propertyName)
+// }
 export function add(a, b) {
     console.log("add");
     return a + b;
